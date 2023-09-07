@@ -326,8 +326,37 @@ main {
 main .container {
     height: 100vh;
     background: var(--light);
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
+}
+main .container .heading{
+	font-size: 25px;
+	padding: 10px;
+}
+main .container .card
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex-basis: 0 0 0 20%;
+}
+main .container .card .card-body
+{
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 270px;
+	margin: 10px;
+	text-align: center;
+	box-shadow: 8px 8px 16px  rgba(0, 0, 0, .1) ;
+}
+main .container .card .card-body a{
+	text-decoration: none;
+	color: #000;
+	font-size: large;
+	font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {
