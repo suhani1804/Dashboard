@@ -139,7 +139,6 @@ window.addEventListener('click', function (e) {
 })
 
 
-// PROGRESSBAR
 const allProgress = document.querySelectorAll('main .card .progress');
 
 allProgress.forEach(item=> {

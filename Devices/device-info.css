@@ -38,11 +38,6 @@ li {
 }
 
 
-
-
-
-
-
 /* SIDEBAR */
 #sidebar {
 	position: fixed;
@@ -78,7 +73,6 @@ li {
 	left: 0;
 	z-index: 100;
 	background: var(--light);
-	transition: all .3s ease;
 	padding: 0 6px;
 }
 #sidebar .icon {
@@ -90,11 +84,12 @@ li {
 }
 #sidebar .icon-right {
 	margin-left: auto;
+	transition: all .3s ease;
 }
 #sidebar .side-menu {
 	margin: 36px 0;
 	padding: 0 20px;
-
+	transition: all .3s ease;
 }
 #sidebar.hide .side-menu {
 	padding: 0 6px;
@@ -121,8 +116,8 @@ li {
 }
 #sidebar .side-menu > li > a.active,
 #sidebar .side-menu > li > a.active:hover {
-	background: var(--blue);
-	color: var(--light);
+	background: var(--light-blue);
+	color: var(--dark);
 }
 #sidebar .divider {
 	margin-top: 24px;
@@ -130,8 +125,6 @@ li {
 	text-transform: uppercase;
 	font-weight: 700;
 	color: var(--dark-grey);
-	transition: all .3s ease;
-	white-space: nowrap;
 }
 #sidebar.hide:hover .divider {
 	text-align: left;
@@ -321,7 +314,6 @@ nav .profile .profile-link a:hover {
 	background: var(--grey);
 }
 /* NAVBAR */
-
 
 
 /* MAIN */

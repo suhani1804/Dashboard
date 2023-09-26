@@ -330,7 +330,7 @@ main .container {
     border-radius: 10px;
 }
 main .container .heading{
-	font-size: 27px;
+	font-size: 25px;
 	padding:10px ;
 }
 main .container .text
@@ -339,8 +339,8 @@ main .container .text
 	padding: 0px 20px;
 }
 h4{
-	font-size: 20px;
-	font-weight: 600;
+	font-size: 18px;
+	font-weight: 500;
 	padding: 10px;
 
 }
